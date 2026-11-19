@@ -1,49 +1,30 @@
 # Dexter Ng
 
-### AI workflows, agent teams and practical governance
+I'm CTO & Cybersecurity Lead at VYR in Singapore. I build AI workflows for business operations and publish the checks that show which decisions still need a person. [VYR team](https://vyrwork.com/about) · [LinkedIn](https://www.linkedin.com/in/dexterng/)
 
-I’m CTO & Cybersecurity Lead at [VYR](https://vyrwork.com/about), based in Singapore. I work on turning a business process into a defined AI workflow: the task, the systems it touches, the decisions people keep and the evidence needed before release.
+## Try the invoice that wouldn't clear
 
-**[Explore VYR Agent OS](https://vyrwork.com/agent-os?utm_source=github&utm_medium=referral&utm_campaign=github_profile&utm_content=profile_primary)** · **[Discuss a workflow](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=github_profile&utm_content=profile_enquiry)** · [LinkedIn](https://www.linkedin.com/in/dexterng/)
+A supplier bills for **12 desk trays**. The warehouse receipts show **6 + 4**. Follow the three source rows to see why the S$222 invoice stays out of the draft. Download the finished report or replay the same decision offline with Python. [Inspect the workbench](https://github.com/dextee/invoice-match-workbench) · [Download the sample report](https://github.com/dextee/invoice-match-workbench/releases/download/v0.1.0/report.html) · [Read the release review](https://github.com/dextee/singapore-ai-governance-checklist/blob/main/docs/invoice-workbench-release-review.md)
 
-## Start with something you can inspect
+[![Invoice review showing twelve billed desk trays and ten received, with S$215 of the S$587 batch ready for drafting](https://raw.githubusercontent.com/dextee/invoice-match-workbench/v0.1.0/docs/invoice-review.png)](https://github.com/dextee/invoice-match-workbench/releases/tag/v0.1.0)
 
-| Resource | What you can use | What it establishes |
-|---|---|---|
-| [ChatGPT Agent Team Guide](https://github.com/dextee/chatgpt-agent-team-guide) | 24 task recommendations, nine Codex agent definitions and 12 workflow recipes | Sourced model guidance and reproducible configuration checks. The routing recommendations still need evaluation on your own tasks. |
-| [VYR Agent OS workflow showcase](https://github.com/dextee/vyr-agent-os-workflows) | Business examples, delivery scope and worked savings scenarios | Published service examples with visible internal-use, demo and custom-build status. Scenarios are not measured customer results. |
-| [Singapore AI Governance Readiness Checklist](https://github.com/dextee/singapore-ai-governance-checklist) | Practical prompts for owners, permissions, testing and operational records | A planning aid grounded in linked Singapore guidance; it is not a certification or legal opinion. |
+## Other work you can inspect
 
-## How I approach agent work
+| Project | A useful first check |
+|---|---|
+| [Agent routing evaluations](https://github.com/dextee/agent-routing-evals) | Replay two runs on 20 synthetic billing disputes. Both routes reached 20/20 in each run. A second model added roughly 19 seconds to each batch. Open the recorded answers to see exactly what was graded. |
+| [PDF Release Preflight](https://github.com/dextee/pdf-release-preflight) | Check outgoing PDFs for terms you supply. Compare the clean, leaky and encrypted fixtures and see where inspection was incomplete. |
+| [Support-triage example](https://github.com/dextee/chatgpt-agent-team-guide/tree/v2026.11.20/examples/support-triage) | Follow a duplicate-charge request to a draft requiring human review. Inspect all eight synthetic tickets, their expected routes and the offline checker. |
+| [Singapore AI governance checklist](https://github.com/dextee/singapore-ai-governance-checklist) | Use the blank release-review template alongside the completed invoice review, including a rejected override and a successful recovery. |
 
-- **Define the result first.** Give each task an owner, boundaries and an observable completion check.
-- **Use evidence to choose the model.** Start with a suitable configuration, then measure accuracy, rework, cost and elapsed time on the real task.
-- **Keep consequential actions accountable.** Agree permissions, review points and how exceptions reach a person.
-- **Publish the limits.** Distinguish a design, a sample-data demo, an internal operation and a measured customer deployment.
+## Agent-team field guides
 
-The guide includes [installation instructions](https://github.com/dextee/chatgpt-agent-team-guide/blob/main/SETUP.md), [reproducible checks and limitations](https://github.com/dextee/chatgpt-agent-team-guide/blob/main/VALIDATION.md), and a [source register](https://github.com/dextee/chatgpt-agent-team-guide/blob/main/SOURCES.md). Generated illustrations are labelled as conceptual artwork.
+Choose the guide for your environment. Each edition covers model selection, scoped roles and handoffs. [ChatGPT and Codex](https://github.com/dextee/chatgpt-agent-team-guide/releases/tag/v2026.11.20) · [Claude Code](https://github.com/dextee/claude-agent-team-guide/releases/tag/v3.0.0) · [Kimi Code](https://github.com/dextee/kimi-agent-team-guide)
 
-## Background you can verify
+## Work with VYR
 
-My background includes software delivery, cybersecurity and data protection. The [HITBSecConf2023 organiser’s speaker page](https://conference.hitb.org/hitbsecconf2023hkt/speaker/dexter-ng/) records my Privacy Ninja CTO role at the time and a session on GPT-4 Code Interpreter. That historical appearance does not imply endorsement of VYR.
+VYR scopes and builds AI workflows for businesses. The catalog identifies which workflows VYR uses internally, which run on sample data and which are built to order. For an enquiry, describe the recurring task, its approximate volume, the difficult exceptions and who makes the final decision. [Business workflow catalog](https://github.com/dextee/vyr-agent-os-workflows/blob/main/docs/workflows/README.md) · [Discuss a workflow](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=github_profile&utm_content=profile_brief)
 
-See [VYR’s current team page](https://vyrwork.com/about) and [my professional background](https://www.linkedin.com/in/dexterng/) for context.
+My background includes software delivery, cybersecurity and data protection. The HITBSecConf2023 organizer's speaker page records my Privacy Ninja CTO role at the time and my session on GPT-4 Code Interpreter. [Conference speaker record](https://conference.hitb.org/hitbsecconf2023hkt/speaker/dexter-ng/)
 
-## Have a workflow worth improving?
-
-VYR scopes and builds AI workflows for businesses. A useful starting brief includes:
-
-1. The recurring task and approximate monthly volume.
-2. The software, current manual steps and difficult exceptions.
-3. The result you want, target start date and budget range.
-4. The person responsible for approving the work.
-
-**[Send VYR a workflow brief](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=github_profile&utm_content=profile_brief)** · [See the implementation process](https://github.com/dextee/chatgpt-agent-team-guide/blob/main/WORK_WITH_VYR.md)
-
-We first establish fit and scope, then agree deliverables and commercial terms. Start with a general description; keep confidential records and credentials out of public GitHub issues.
-
----
-
-I maintain these educational resources alongside my commercial work at VYR. They are independently maintained and do not imply endorsement by OpenAI, Anthropic, GitHub or the organisations linked above. Forked repositories retain their original authorship; the resources featured here identify my own maintained work.
-
-*Profile sources reviewed: 29 September 2026.*
+I maintain these public resources alongside my commercial work at VYR. The worked examples above use synthetic data. Portfolio updated 20 November 2026.

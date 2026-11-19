@@ -1,0 +1,6 @@
+role,permission
+finance-approver,invoice.approve
+finance-approver,invoice.read
+invoice-agent,invoice.draft
+invoice-agent,invoice.read
+reviewer,invoice.read

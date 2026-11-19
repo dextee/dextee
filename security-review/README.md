@@ -29,4 +29,8 @@ The first command shows one extra grant and exits with status 1. The second has 
 
 ## Discuss a security assessment
 
-Tell me which application or integration is in scope, the business decision it controls and your release or review date. [Discuss the scope with Dexter](https://www.linkedin.com/in/dexterng/)
+You can start with a message like this.
+
+> I found your access review on GitHub. We're preparing to launch [application or integration] by [date]. We want to confirm who can [business action] and agree which fixes need a retest.
+
+[Discuss the scope with Dexter on LinkedIn](https://www.linkedin.com/in/dexterng/)
